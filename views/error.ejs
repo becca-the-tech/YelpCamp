@@ -1,0 +1,17 @@
+<% layout("layouts/boilerPlate") %>
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="alert alert-danger" role="alert">
+                <h4 class="alert-heading">
+                    <%= err.message %>
+                </h4>
+                <p>The line below is for those of us working behind the scenes to know what happened.</p>
+                <hr>
+                <p>
+                    <%= err.stack %>
+                </p>
+
+            </div>
+
+        </div>
+    </div>
